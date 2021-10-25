@@ -1,0 +1,35 @@
+.calculator {
+  padding: 1em;
+  width: fit-content;
+  border: 2px solid steelblue;
+  margin: auto;
+}
+h3 {
+  text-align: center;
+}
+.calculator #screen {
+  max-width: 100%;
+  font-size: 2em;
+}
+.buttons {
+  margin: 0.5em 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+}
+.buttons input {
+  font-size: 2em;
+  padding: 0.4em 0.6em;
+}
+
+.buttons button {
+  font-size: 2em;
+  padding: 0.4em 0.6em;
+}
+#ac {
+  padding: 0;
+}
+
+.top input {
+  border: 3px solid steelblue;
+}

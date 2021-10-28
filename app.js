@@ -1,3 +1,4 @@
+const a = 4;
 const screen = document.getElementById('screen')
 let buttons = document.getElementsByClassName('btn');
 

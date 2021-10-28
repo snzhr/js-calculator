@@ -1,8 +1,9 @@
 .calculator {
   padding: 1em;
-  width: fit-content;
+  width: 300px;
   border: 2px solid steelblue;
   margin: auto;
+  background-color: cadetblue;
 }
 h3 {
   text-align: center;
@@ -20,16 +21,20 @@ h3 {
 .buttons input {
   font-size: 2em;
   padding: 0.4em 0.6em;
+  border: 1px solid white;
+  margin: 0.15em;
 }
 
 .buttons button {
+  margin: 0.15em;
   font-size: 2em;
   padding: 0.4em 0.6em;
+  border: 1px solid white;
 }
 #ac {
   padding: 0;
 }
 
 .top input {
-  border: 3px solid steelblue;
+  border: 3px solid cadetblue;
 }
